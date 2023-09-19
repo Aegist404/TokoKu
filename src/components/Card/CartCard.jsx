@@ -3,9 +3,10 @@ import {
   CardHeader,
   CardBody,
   Typography,
-  Button,
+  Rating,
   Checkbox,
 } from "@material-tailwind/react";
+import { MainFooter } from "../layouts/MainFooter";
 
 export function CartCard() {
   return (
@@ -24,7 +25,7 @@ export function CartCard() {
 
         </CardHeader>
         <CardBody>
-          <div className="">
+          <div className="flex-col">
             <Typography color="gray" className="text-[18px] font-bold">
               IDR Shop
             </Typography>
@@ -36,12 +37,19 @@ export function CartCard() {
             </Typography>
 
             <Typography color="blue-gray" className="text-[16px] font-bold">
-              Rp <span>90.000</span> 
+              Rp <span>90.000</span>
             </Typography>
-          <Checkbox defaultChecked/>
+
+
+            <div className="flex justify-end">
+              {/* <Rating className=""/> */}
+              <Checkbox label="Checkout" />
+            </div>
           </div>
         </CardBody>
       </Card>
+
+      <MainFooter/>
     </>
   );
 }
