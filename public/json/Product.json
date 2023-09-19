@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "image": "https://example.com/product1.jpg",
+    "name": "Produk 1",
+    "stock": 10,
+    "price": 100.00
+  },
+  {
+    "id": 2,
+    "image": "https://example.com/product2.jpg",
+    "name": "Produk 2",
+    "stock": 5,
+    "price": 75.50
+  },
+  {
+    "id": 3,
+    "image": "https://example.com/product3.jpg",
+    "name": "Produk 3",
+    "stock": 15,
+    "price": 120.75
+  },
+  {
+    "id": 4,
+    "image": "https://example.com/product4.jpg",
+    "name": "Produk 4",
+    "stock": 8,
+    "price": 89.99
+  }
+]
